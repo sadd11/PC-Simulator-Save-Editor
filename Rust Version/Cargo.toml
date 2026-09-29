@@ -1,0 +1,16 @@
+[package]
+name = "pc_save_editor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.27"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+rfd = "0.14"
+rand = "0.8"
+sys-locale = "0.3"
+image = { version = "0.24", default-features = false, features = ["ico", "png"] }
+
+[build-dependencies]
+winres = "0.1"
